@@ -1,0 +1,86 @@
+/* line 2, ../sass/component/_button.scss */
+.btn {
+  width: 135px !important;
+  height: 35px !important;
+  border-radius: 90px !important;
+  margin: 10px 15px;
+  padding: 5px 15px !important;
+}
+/* line 9, ../sass/component/_button.scss */
+.btn::after {
+  position: relative;
+  content: "";
+  display: block;
+  border-radius: 90px;
+  width: 6px;
+  height: 6px;
+  background-color: #999999;
+  top: -15px;
+  left: auto;
+  right: -100px;
+}
+
+/* line 23, ../sass/component/_button.scss */
+.btn-primary {
+  color: #f3f1ff;
+}
+
+/* line 27, ../sass/component/_button.scss */
+.btn-secondary {
+  color: #f3f1ff;
+}
+
+/* line 31, ../sass/component/_button.scss */
+.btn-success {
+  color: #f3f1ff;
+}
+
+/* line 35, ../sass/component/_button.scss */
+.btn-danger {
+  color: #f3f1ff;
+}
+
+/* line 39, ../sass/component/_button.scss */
+.btn-warning {
+  color: #000000;
+}
+
+/* line 43, ../sass/component/_button.scss */
+.btn-info {
+  color: #000000;
+}
+
+/* line 47, ../sass/component/_button.scss */
+.btn-light {
+  color: #000000;
+}
+
+/* line 51, ../sass/component/_button.scss */
+.btn-dark {
+  color: #f3f1ff;
+}
+
+/* line 55, ../sass/component/_button.scss */
+.btn-link {
+  color: #f3f1ff;
+}
+/* line 57, ../sass/component/_button.scss */
+.btn-link:focus, .btn-linka:active {
+  background-color: #212529 !important;
+  text-decoration: none;
+  color: #f3f1ff !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #b9d1fe !important;
+}
+
+/* line 11, ../sass/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f1ff !important;
+}
+
+/* line 16, ../sass/style.scss */
+section {
+  padding: 30px 0;
+}

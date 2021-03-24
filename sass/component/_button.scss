@@ -1,0 +1,65 @@
+// Button Comment
+.btn {
+	// padding: ($p_xs * 5) ($p_xs * 5);
+	width: 135px !important;
+	height: 35px !important;
+	border-radius: 90px !important;
+	margin: 10px 15px;
+	padding: 5px 15px !important;
+	&::after {
+		position: relative;
+		content: "";
+		display: block;
+		border-radius: 90px;
+		width: 6px;
+		height: 6px;
+		background-color: $gray;
+		top: -15px;
+		left: auto;
+		right: -100px;
+	}
+}
+
+.btn-primary {
+	color: $white;
+}
+
+.btn-secondary {
+	color: $white;
+}
+
+.btn-success {
+	color: $white;
+}
+
+.btn-danger {
+	color: $white;
+}
+
+.btn-warning {
+	color: $black;
+}
+
+.btn-info {
+	color: $black;
+}
+
+.btn-light {
+	color: $black;
+}
+
+.btn-dark {
+	color: $white;
+}
+
+.btn-link {
+	color: $white;
+	&:focus,
+	&a:active {
+		background-color: $gray-30 !important;
+		text-decoration: none;
+		color: $white !important;
+		outline: 0;
+		box-shadow: 0 0 0 0.25rem rgba(185, 209, 254, 1) !important;
+	}
+}
